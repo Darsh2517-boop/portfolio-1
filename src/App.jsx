@@ -9,13 +9,13 @@ import Footer from "./components/footer"
 function App() {
   return (
     <>
-      <navbar />
-      <hero />
-      <about />
-      <skills />
-      <projects />
-      <contact />
-      <footer />
+      <Navbar />
+      <Hero />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
+      <Footer />
     </>
   );
 }
