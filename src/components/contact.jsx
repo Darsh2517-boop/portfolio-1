@@ -12,7 +12,7 @@ function Contact() {
     setLoading(true);
 
     emailjs
-      .sendForm(
+      .send(
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         form.current,
